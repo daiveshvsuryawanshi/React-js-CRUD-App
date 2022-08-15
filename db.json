@@ -1,0 +1,20 @@
+{
+  "posts": [
+    {
+      "name": "avi",
+      "class": "10",
+      "mark": "89",
+      "id": 1
+    },
+    {
+      "name": "Priya",
+      "class": "10",
+      "mark": "77",
+      "id": 2
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

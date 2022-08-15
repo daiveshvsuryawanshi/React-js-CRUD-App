@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --bgcolor: #f1f5fd;
+  --primary-color: #6f5de7;
+  --secondary-color: #be3131;
+  --text-color: #828286;
+  --main-text-color: #333333;
+
+  --footer-bg: #030821;
+}
+
+/* =============================== Nav bar ===================== */
+
+
+.bg-nav {
+  width: 100%;
+  background-color: var(--bgcolor);
+  padding: 0 2rem;
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-size: 1.5rem;
+}
+
+.navbar li a:hover {
+  color: var(--primary-color) !important;
+  text-shadow: 0 0.2rem 0.3rem rgba(183, 171, 255, 0.5);
+}
+
+.navbar li a {
+  font-size: 1.2rem;
+  font-weight: 400;
+  position: relative;
+  color: var(--main-text-color) !important;
+  padding: 0.5rem 1rem !important;
+}
+
+.nav-link:hover {
+  color: var(--primary-color) !important;
+}
+
+/* =============================== Nav bar end ===================== */
+
+
+/* =============================== Button end ===================== */
+
+.btn-style {
+  background-color: var(--primary-color);
+  font-size: 1.2rem;
+  color: #fff;
+  border-color: var(--primary-color);
+}
+
+.btn-style:hover {
+  background-color: #fff;
+  color: var(--primary-color);
+}
+
+
+.btn-outline-style {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+
+}
+
+.btn-outline-style:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+/* =============================== Button end ===================== */
+
+
+/* =============================== Icon Style ===================== */
+
+.bi{
+  cursor: pointer;
+}
+
+.view{
+  color: #7fff00;
+}
+
+.edit{
+  color: #0000ff;
+}
+
+.delete{
+  color: #ff0000;
+}
+
+/* =============================== Icon Style End ===================== */
+
+
